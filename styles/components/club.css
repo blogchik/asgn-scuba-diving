@@ -1,0 +1,156 @@
+/* xs */
+/* @media (min-width: 475px) {} */
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* lg */
+/* @media (min-width: 1024px) {} */
+
+/* xl */
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */
+
+.sec-club
+{
+    margin-bottom: 200px;
+}
+
+.sec-club .content
+{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.sec-club .content .title
+{
+    font-size: var(--size-4xl);
+    color: var(--clr-rose);
+    font-weight: 600;
+    text-align: center;
+}
+
+.sec-club .content form
+{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    height: max-content;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: var(--clr-light);
+    color: var(--clr-dark);
+    border-radius: 10px;
+    gap: 20px;
+}
+
+@media (min-width: 640px) {
+
+    .sec-club .content form
+    {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        height: max-content;
+        margin-top: 20px;
+        padding: 20px;
+        background-color: var(--clr-light);
+        color: var(--clr-dark);
+        border-radius: 10px;
+        gap: 20px;
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    .sec-club .content form
+    {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        height: max-content;
+        margin-top: 20px;
+        padding: 20px;
+        background-color: var(--clr-light);
+        color: var(--clr-dark);
+        border-radius: 10px;
+        gap: 20px;
+    }
+
+}
+
+.sec-club .content .data
+{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: max-content;
+}
+
+.sec-club .content .data label
+{
+    font-size: var(--size-lg);
+    font-weight: 500;
+    width: 100%;
+}
+
+.sec-club .content .data input, .sec-club .content .data textarea
+{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: max-content;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0;
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    resize: none;
+    font-size: var(--size-lg);
+    background-color: var(--clr-slate800);
+    color: var(--clr-light2);
+}
+
+.sec-club .content .data textarea
+{
+    height: 160px;
+}
+
+.sec-club .content .data button
+{
+    font-size: var(--size-xl);
+    width: 100%;
+    margin-top: 20px;
+}

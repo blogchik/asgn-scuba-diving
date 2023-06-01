@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Scuba Diving - Shop</title>
+  
+  <link rel="icon" type="image/svg+xml" href="/logo-rose.svg" />
+
+  <link href="https://api.fontshare.com/v2/css?f[]=general-sans@701,200,500,301,201,300,601,600,401,501,400,700&display=swap" rel="stylesheet">
+
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
+
+</head>
+<body>
+  
+  <header class="header container">
+
+    <a href="./"><img src="./logo-rose.svg" alt="logo" class="header__logo"></a>
+
+    <nav>
+      
+      <ul class="header__menu">
+        
+        <li>
+          
+          <a class="header__link" href="./#home">Home</a>
+        
+        </li>
+        <li>
+
+          <a class="header__link" href="./#about">About Us</a>
+
+        </li>
+        <li>
+          
+          <a class="header__link" href="#">Shop</a>
+
+        </li>
+        <li>
+          
+          <a class="header__link" href="./#travel">Travel</a>
+
+        </li>
+        <li>
+          
+          <a class="header__link" href="./#gallery">Gallery</a>
+
+        </li>
+        <li>
+          
+          <a class="header__link" href="./#divingclub">Diving Club</a>
+
+        </li>
+
+        <li class="header__line"></li>
+
+        <li>
+
+          <button aria-label="theme-toggle btn" id="theme-toggle" class="header__sun">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+              
+              <path
+                d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z"
+              />
+
+            </svg>
+
+          </button>
+
+        </li>
+        <li>
+
+          <a class="header__join btn" href="https://t.me/JabborovAbduroziq" target="_blank">JOIN US</a>
+
+        </li>
+
+      </ul>
+
+      <button aria-label="mobile nav button" class="header__bars">
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+
+          <path
+            fill-rule="evenodd"
+            d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
+            clip-rule="evenodd"
+          />
+
+        </svg>
+
+      </button>
+
+    </nav>
+
+  </header>
+
+  <!-- Mobile Navigation -->
+
+  <div class="mobile-nav">
+
+    <nav>
+
+      <ul class="mobile-nav__menu">
+
+        <li>
+          
+          <a class="mobile-nav__link" href="./#home">Home</a>
+        
+        </li>
+        <li>
+
+          <a class="mobile-nav__link" href="./#about">About Us</a>
+
+        </li>
+        <li>
+          
+          <a class="mobile-nav__link" href="#">Shop</a>
+
+        </li>
+        <li>
+          
+          <a class="mobile-nav__link" href="./#travel">Travel</a>
+
+        </li>
+        <li>
+          
+          <a class="mobile-nav__link" href="./#gallery">Gallery</a>
+
+        </li>
+        <li>
+          
+          <a class="mobile-nav__link" href="./#divingclub">Diving Club</a>
+
+        </li>
+
+        <li class="mobile-nav__link-line"></li>
+
+        <li>
+
+          <button aria-label="theme-toggle btn" id="theme-toggle" class="mobile-nav__sun">
+
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z"
+              />
+            </svg>
+
+          </button>
+
+        </li>
+        <li>
+
+          <a class="mobile-nav__btn btn" href="https://t.me/JabborovAbduroziq" target="_blank">JOIN US</a>
+
+        </li>
+
+      </ul>
+
+    </nav>
+
+  </div>
+
+  <!-- End of Mobile Navigation -->
+
+  <main>
+
+    <section class="container section sec-shopitems" id="shopitems">
+
+        <div class="content">
+
+            <div class="side">
+
+                <p class="title">
+                    Aquatic Treasures: Your Destination for Water Sports Gear
+                </p>
+
+                <p class="subtitle">
+                    Dive into a World of Accessories for Water Explorers
+                </p>
+        
+                <p class="text">
+                    Discover Aquatic Treasures, your one-stop shop for water sports gear. Find everything you need for scuba diving, snorkeling, and more. Shop our curated selection of high-quality products from top brands. Explore the depths with confidence and style. Dive into Aquatic Treasures and make a splash in your water adventures.
+                </p>
+                
+            </div>
+
+        </div>
+
+        <div class="side">
+
+            <div class="items">
+
+                <div class="item">
+
+                    <div class="image">
+
+                        <img src="https://www.emarinehub.com/media/catalog/product/cache/08520938accc80eae52e308852d54d55/1/0/103404.jpg" alt="">
+
+                    </div>
+
+                    <div class="text">
+
+                        <p>
+                            Rob Allen Deluxe Gun Bag 210cm
+                        </p>
+
+                    </div>
+
+                    <div class="text">
+
+                        <p class="price">
+                            <strike>120$</strike> 115$
+                        </p>
+
+                    </div>
+
+                    <div class="action">
+
+                        <a href="#" class="btn"><i class="fi fi-rr-shopping-cart"></i> ADD TO CART</a>
+
+                        <a href="#" class="like">
+                            <i class="fi fi-rr-heart"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="item">
+
+                    <div class="image">
+
+                        <img src="https://www.emarinehub.com/media/catalog/product/cache/08520938accc80eae52e308852d54d55/1/4/14453521401.jpg" alt="">
+
+                    </div>
+
+                    <div class="text">
+
+                        <p>
+                            Rob Allen Tanker Gear Dive Bag 110cm - Blue
+                        </p>
+
+                    </div>
+
+                    <div class="text">
+
+                        <p class="price">
+                            <strike>170$</strike> 150$
+                        </p>
+
+                    </div>
+
+                    <div class="action">
+
+                        <a href="#" class="btn"><i class="fi fi-rr-shopping-cart"></i> ADD TO CART</a>
+
+                        <a href="#" class="like">
+                            <i class="fi fi-rr-heart"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="item">
+
+                    <div class="image">
+
+                        <img src="https://www.emarinehub.com/media/catalog/product/cache/08520938accc80eae52e308852d54d55/r/o/rob-allen-mesh-dive-bag.jpg" alt="">
+
+                    </div>
+
+                    <div class="text">
+
+                        <p>
+                            Rob Allen Mesh Dive Bag 90cm
+                        </p>
+
+                    </div>
+
+                    <div class="text">
+
+                        <p class="price">
+                            <strike>90$</strike> 85$
+                        </p>
+
+                    </div>
+
+                    <div class="action">
+
+                        <a href="#" class="btn"><i class="fi fi-rr-shopping-cart"></i> ADD TO CART</a>
+
+                        <a href="#" class="like">
+                            <i class="fi fi-rr-heart"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="item">
+
+                    <div class="image">
+
+                        <img src="https://www.emarinehub.com/media/catalog/product/cache/08520938accc80eae52e308852d54d55/1/0/103929-base.jpg" alt="">
+
+                    </div>
+
+                    <div class="text">
+
+                        <p>
+                            Rob Allen Compact Dive Bag 100cm Black
+                        </p>
+
+                    </div>
+
+                    <div class="text">
+
+                        <p class="price">
+                            <strike>130$</strike> 115$
+                        </p>
+
+                    </div>
+
+                    <div class="action">
+
+                        <a href="#" class="btn"><i class="fi fi-rr-shopping-cart"></i> ADD TO CART</a>
+
+                        <a href="#" class="like">
+                            <i class="fi fi-rr-heart"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="items">
+
+                <div class="item">
+
+                    <div class="image">
+
+                        <img src="https://www.emarinehub.com/media/catalog/product/cache/08520938accc80eae52e308852d54d55/2/2/22056_1.jpg" alt="">
+
+                    </div>
+
+                    <div class="text">
+
+                        <p>
+                            Bestway Hydroswim Aqua Prime Mask
+                        </p>
+
+                    </div>
+
+                    <div class="text">
+
+                        <p class="price">
+                            <strike>7$</strike> 5$
+                        </p>
+
+                    </div>
+
+                    <div class="action">
+
+                        <a href="#" class="btn"><i class="fi fi-rr-shopping-cart"></i> ADD TO CART</a>
+
+                        <a href="#" class="like">
+                            <i class="fi fi-rr-heart"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="item">
+
+                    <div class="image">
+
+                        <img src="https://www.emarinehub.com/media/catalog/product/cache/08520938accc80eae52e308852d54d55/1/0/102852-a.jpg" alt="">
+
+                    </div>
+
+                    <div class="text">
+
+                        <p>
+                            Rob Allen Trevally Mask (1pc Black color)
+                        </p>
+
+                    </div>
+
+                    <div class="text">
+
+                        <p class="price">
+                            <strike>75$</strike> 73$
+                        </p>
+
+                    </div>
+
+                    <div class="action">
+
+                        <a href="#" class="btn"><i class="fi fi-rr-shopping-cart"></i> ADD TO CART</a>
+
+                        <a href="#" class="like">
+                            <i class="fi fi-rr-heart"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="item">
+
+                    <div class="image">
+
+                        <img src="https://www.emarinehub.com/media/catalog/product/cache/08520938accc80eae52e308852d54d55/r/o/rob_allen_0003_16458897230.jpg" alt="">
+
+                    </div>
+
+                    <div class="text">
+
+                        <p>
+                            Rob Allen Cubera Mask - Red Tint
+                        </p>
+
+                    </div>
+
+                    <div class="text">
+
+                        <p class="price">
+                            <strike>85$</strike> 72$
+                        </p>
+
+                    </div>
+
+                    <div class="action">
+
+                        <a href="#" class="btn"><i class="fi fi-rr-shopping-cart"></i> ADD TO CART</a>
+
+                        <a href="#" class="like">
+                            <i class="fi fi-rr-heart"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="item">
+
+                    <div class="image">
+
+                        <img src="https://www.emarinehub.com/media/catalog/product/cache/08520938accc80eae52e308852d54d55/l/o/longbreath_0000_69070112_1.jpg" alt="">
+
+                    </div>
+
+                    <div class="text">
+
+                        <p>
+                            Seafans Nemo Kids Swimming Goggles (Blue)
+                        </p>
+
+                    </div>
+
+                    <div class="text">
+
+                        <p class="price">
+                            <strike>13$</strike> 9$
+                        </p>
+
+                    </div>
+
+                    <div class="action">
+
+                        <a href="#" class="btn"><i class="fi fi-rr-shopping-cart"></i> ADD TO CART</a>
+
+                        <a href="#" class="like">
+                            <i class="fi fi-rr-heart"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="items">
+
+                <div class="item">
+
+                    <div class="image">
+
+                        <img src="https://www.emarinehub.com/media/catalog/product/cache/08520938accc80eae52e308852d54d55/a/l/alshah33060.jpg" alt="">
+
+                    </div>
+
+                    <div class="text">
+
+                        <p>
+                            Cressi Rondinella Fins - Blue
+                        </p>
+
+                    </div>
+
+                    <div class="text">
+
+                        <p class="price">
+                            <strike>30$</strike> 28$
+                        </p>
+
+                    </div>
+
+                    <div class="action">
+
+                        <a href="#" class="btn"><i class="fi fi-rr-shopping-cart"></i> ADD TO CART</a>
+
+                        <a href="#" class="like">
+                            <i class="fi fi-rr-heart"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="item">
+
+                    <div class="image">
+
+                        <img src="https://www.emarinehub.com/media/catalog/product/cache/08520938accc80eae52e308852d54d55/8/9/8907618189368-fins.jpg" alt="">
+
+                    </div>
+
+                    <div class="text">
+
+                        <p>
+                            Nivia Flash Fins for Adults
+                        </p>
+
+                    </div>
+
+                    <div class="text">
+
+                        <p class="price">
+                            <strike>19$</strike> 15$
+                        </p>
+
+                    </div>
+
+                    <div class="action">
+
+                        <a href="#" class="btn"><i class="fi fi-rr-shopping-cart"></i> ADD TO CART</a>
+
+                        <a href="#" class="like">
+                            <i class="fi fi-rr-heart"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="item">
+
+                    <div class="image">
+
+                        <img src="https://www.emarinehub.com/media/catalog/product/cache/08520938accc80eae52e308852d54d55/1/0/102939-base.jpg" alt="">
+
+                    </div>
+
+                    <div class="text">
+
+                        <p>
+                            Rob Allen Couta Diving Fins
+                        </p>
+
+                    </div>
+
+                    <div class="text">
+
+                        <p class="price">
+                            <strike>185$</strike> 180$
+                        </p>
+
+                    </div>
+
+                    <div class="action">
+
+                        <a href="#" class="btn"><i class="fi fi-rr-shopping-cart"></i> ADD TO CART</a>
+
+                        <a href="#" class="like">
+                            <i class="fi fi-rr-heart"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="item">
+
+                    <div class="image">
+
+                        <img src="https://www.emarinehub.com/media/catalog/product/cache/08520938accc80eae52e308852d54d55/1/0/103908-base.jpg" alt="">
+
+                    </div>
+
+                    <div class="text">
+
+                        <p>
+                            Meister F1 Carbon Fins
+                        </p>
+
+                    </div>
+
+                    <div class="text">
+
+                        <p class="price">
+                            <strike>500$</strike> 493$
+                        </p>
+
+                    </div>
+
+                    <div class="action">
+
+                        <a href="#" class="btn"><i class="fi fi-rr-shopping-cart"></i> ADD TO CART</a>
+
+                        <a href="#" class="like">
+                            <i class="fi fi-rr-heart"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="items">
+
+                <div class="item">
+
+                    <div class="image">
+
+                        <img src="https://www.emarinehub.com/media/catalog/product/cache/08520938accc80eae52e308852d54d55/m/o/monster_0025_35140117_-_base.jpg" alt="">
+
+                    </div>
+
+                    <div class="text">
+
+                        <p>
+                            Monster Storm 1.5mm Wetsuit
+                        </p>
+
+                    </div>
+
+                    <div class="text">
+
+                        <p class="price">
+                            <strike>227$</strike> 225$
+                        </p>
+
+                    </div>
+
+                    <div class="action">
+
+                        <a href="#" class="btn"><i class="fi fi-rr-shopping-cart"></i> ADD TO CART</a>
+
+                        <a href="#" class="like">
+                            <i class="fi fi-rr-heart"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="item">
+
+                    <div class="image">
+
+                        <img src="https://www.emarinehub.com/media/catalog/product/cache/08520938accc80eae52e308852d54d55/3/5/35140129.jpg" alt="">
+
+                    </div>
+
+                    <div class="text">
+
+                        <p>
+                            Monster Pacific Women's Rashguard
+                        </p>
+
+                    </div>
+
+                    <div class="text">
+
+                        <p class="price">
+                            <strike>44$</strike> 40$
+                        </p>
+
+                    </div>
+
+                    <div class="action">
+
+                        <a href="#" class="btn"><i class="fi fi-rr-shopping-cart"></i> ADD TO CART</a>
+
+                        <a href="#" class="like">
+                            <i class="fi fi-rr-heart"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="item">
+
+                    <div class="image">
+
+                        <img src="https://www.emarinehub.com/media/catalog/product/cache/08520938accc80eae52e308852d54d55/l/o/longbreath_0012_35140170.jpg" alt="">
+
+                    </div>
+
+                    <div class="text">
+
+                        <p>
+                            Monster Black Stone 2mm Wetsuit
+                        </p>
+
+                    </div>
+
+                    <div class="text">
+
+                        <p class="price">
+                            <strike>101$</strike> 95$
+                        </p>
+
+                    </div>
+
+                    <div class="action">
+
+                        <a href="#" class="btn"><i class="fi fi-rr-shopping-cart"></i> ADD TO CART</a>
+
+                        <a href="#" class="like">
+                            <i class="fi fi-rr-heart"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="item">
+
+                    <div class="image">
+
+                        <img src="https://www.emarinehub.com/media/catalog/product/cache/08520938accc80eae52e308852d54d55/m/o/monster_0000_35140165-base.jpg" alt="">
+
+                    </div>
+
+                    <div class="text"> 
+
+                        <p>
+                            Monster Deep 1.5mm Wetsuit for Women
+                        </p>
+
+                    </div>
+
+                    <div class="text">
+
+                        <p class="price">
+                            <strike>198$</strike> 195$
+                        </p>
+
+                    </div>
+
+                    <div class="action">
+
+                        <a href="#" class="btn"><i class="fi fi-rr-shopping-cart"></i> ADD TO CART</a>
+
+                        <a href="#" class="like">
+                            <i class="fi fi-rr-heart"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+  </main>
+
+  <footer class="container section">
+
+    <div class="footer">
+
+      <div class="side">
+
+        <a href="./" class="logo">
+          <img src="./logo-rose.svg" alt="logo">
+        </a>
+
+      </div>
+
+      <div class="side socials">
+
+        <a href="#">
+          <i class="fi fi-brands-telegram"></i>
+        </a>
+
+        <a href="#">
+          <i class="fi fi-brands-instagram"></i>
+        </a>
+
+        <a href="#">
+          <i class="fi fi-brands-youtube"></i>
+        </a>
+
+        <a href="#">
+          <i class="fi fi-brands-twitter"></i>
+        </a>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+  <script type="module" src="./src/main.js"></script>
+
+</body>
+</html>

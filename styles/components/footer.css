@@ -1,0 +1,39 @@
+.footer
+{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: max-content;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 60px;
+}
+
+.footer .side
+{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .logo img
+{
+    width: 40px;
+    height: 40px;
+}
+
+.footer .socials
+{
+    gap: 10px;
+}
+
+.footer .socials a
+{
+    font-size: var(--size-2xl);
+    color: var(--clr-rose);
+}

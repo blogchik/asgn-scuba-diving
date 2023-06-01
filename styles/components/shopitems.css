@@ -1,0 +1,331 @@
+/* xs */
+/* @media (min-width: 475px) {} */
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* lg */
+/* @media (min-width: 1024px) {} */
+
+/* xl */
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */
+
+.sec-shopitems
+{
+    margin-bottom: 200px;
+}
+
+.sec-shopitems .content
+{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.sec-shopitems .content .side
+{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec-shopitems .content .title
+{
+    font-size: var(--size-4xl);
+    font-weight: 800;
+    width: 90%;
+    text-align: center;
+    color: var(--clr-rose);
+}
+
+@media (min-width: 640px) {
+
+    .sec-shopitems .content .title
+    {
+        font-size: var(--size-6xl);
+        font-weight: 800;
+        width: 90%;
+        text-align: center;
+        color: var(--clr-rose);
+    }
+
+}
+
+.sec-shopitems .content .subtitle
+{
+    font-size: var(--size-basic);
+    font-weight: 200;
+    width: 60%;
+    text-align: center;
+    color: var(--clr-slate200);
+    margin-top: 20px;
+}
+
+.sec-shopitems .content .text
+{
+    font-size: var(--size-lg);
+    font-weight: 200;
+    width: 90%;
+    text-align: center;
+    color: var(--clr-light);
+    margin-top: 20px;
+}
+
+.sec-shopitems .items
+{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    gap: 40px;
+}
+
+.sec-shopitems .item
+{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: unset;
+    justify-content: unset;
+    width: 80%;
+    height: auto;
+    background-color: var(--clr-light);
+    color: var(--clr-dark);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.3s all ease-in-out;
+}
+
+.sec-shopitems .item .image
+{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.sec-shopitems .item .image img
+{
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.sec-shopitems .item .text
+{
+    display: flex;
+    position: relative;
+    height: auto;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+
+.sec-shopitems .item .text p
+{
+    font-size: var(--size-2xl);
+    font-weight: 400;
+    width: 100%;
+}
+
+.sec-shopitems .item .text .price
+{
+    font-size: var(--size-2xl);
+    font-weight: 500;
+    width: 100%;
+}
+
+.sec-shopitems .item .action
+{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: unset;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    margin-top: 15px;
+    gap: 20px;
+}
+
+.sec-shopitems .item .action .btn i
+{
+    margin-right: 10px;
+}
+
+.sec-shopitems .item .action .like
+{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    font-size: var(--size-lg);
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+    border-radius: 6px;
+    box-shadow: 0 10px 20px rgba(7, 10, 19, 0.5),
+        0 6px 6px rgba(7, 10, 19, 0.5), 0 0 100px -10px var(--clr-dark);
+    transition: 0.3s all ease-in-out;
+}
+
+.sec-shopitems .item .action .like:hover
+{
+    background-color: var(--clr-rose);
+    transform: translateY(-3px);
+    box-shadow: 0 14px 28px rgba(225, 29, 72, 0.25),
+        0 10px 10px rgba(225, 29, 72, 0.22), 0 0 120px -10px var(--clr-rose);
+}
+
+.sec-shopitems .item .action .like i
+{
+    margin-right: 0;
+}
+
+@media (min-width: 1024px) {
+
+    .sec-shopitems .items
+    {
+        display: flex;
+        position: relative;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        gap: 40px;
+    }
+
+    .sec-shopitems .item
+    {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        align-items: unset;
+        justify-content: unset;
+        width: 260px;
+        height: auto;
+        background-color: var(--clr-light);
+        color: var(--clr-dark);
+        border-radius: 10px;
+        overflow: hidden;
+        transition: 0.3s all ease-in-out;
+    }
+    
+    .sec-shopitems .item .image
+    {
+        display: block;
+        position: relative;
+        width: 260px;
+        height: 260px;
+        overflow: hidden;
+    }
+    
+    .sec-shopitems .item .image img
+    {
+        min-width: 100%;
+        min-height: 100%;
+    }
+    
+    .sec-shopitems .item .text
+    {
+        display: flex;
+        position: relative;
+        height: auto;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 10px;
+    }
+    
+    .sec-shopitems .item .text p
+    {
+        font-size: var(--size-lg);
+        font-weight: 400;
+        width: 100%;
+    }
+    
+    .sec-shopitems .item .text .price
+    {
+        font-size: var(--size-lg);
+        font-weight: 500;
+        width: 100%;
+    }
+    
+    .sec-shopitems .item .action
+    {
+        display: flex;
+        position: relative;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        margin-top: 15px;
+    }
+    
+    .sec-shopitems .item .action .btn i
+    {
+        margin-right: 10px;
+    }
+    
+    .sec-shopitems .item .action .like
+    {
+        display: flex;
+        position: relative;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        font-size: var(--size-lg);
+        background-color: var(--clr-dark);
+        color: var(--clr-light);
+        border-radius: 6px;
+        box-shadow: 0 10px 20px rgba(7, 10, 19, 0.5),
+            0 6px 6px rgba(7, 10, 19, 0.5), 0 0 100px -10px var(--clr-dark);
+        transition: 0.3s all ease-in-out;
+    }
+    
+    .sec-shopitems .item .action .like:hover
+    {
+        background-color: var(--clr-rose);
+        transform: translateY(-3px);
+        box-shadow: 0 14px 28px rgba(225, 29, 72, 0.25),
+            0 10px 10px rgba(225, 29, 72, 0.22), 0 0 120px -10px var(--clr-rose);
+    }
+    
+    .sec-shopitems .item .action .like i
+    {
+        margin-right: 0;
+    }
+
+}

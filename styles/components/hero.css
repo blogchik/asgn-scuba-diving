@@ -1,0 +1,137 @@
+.sec-hero .content
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url("https://i.ytimg.com/vi/dgBJrbKPUrs/maxresdefault.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 15px;
+}
+
+.sec-hero .subtitle
+{
+    display: none;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    height: max-content;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 45px;
+    border-width: 1px;
+    border-color: var(--clr-rose);
+    border-style: solid;
+}
+
+.sec-hero .subtitle a
+{
+    margin-left: 10px;
+}
+
+.sec-hero .title
+{
+    display: block;
+    font-size: 45px;
+    font-weight: 900;
+    width: 80%;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.sec-hero .description
+{
+    font-size: 18px;
+    width: 70%;
+    text-align: center;
+}
+
+.sec-hero .action
+{
+    margin-top: 40px;
+}
+
+.sec-hero .action *
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media (min-width: 768px)
+{
+
+    .sec-hero .content
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding-top: 160px;
+        padding-bottom: 160px;
+    }
+
+    .sec-hero .subtitle
+    {
+        display: flex;
+        position: relative;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: max-content;
+        height: max-content;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 45px;
+        border-width: 1px;
+        border-color: var(--clr-rose);
+        border-style: solid;
+    }
+
+    .sec-hero .subtitle a
+    {
+        margin-left: 10px;
+    }
+
+    .sec-hero .title
+    {
+        font-size: 60px;
+        font-weight: 900;
+        width: 80%;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .sec-hero .description
+    {
+        font-size: 18px;
+        width: 70%;
+        text-align: center;
+    }
+
+    .sec-hero .action
+    {
+        margin-top: 40px;
+    }
+
+    .sec-hero .action *
+    {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+}

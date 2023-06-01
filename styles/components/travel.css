@@ -1,0 +1,215 @@
+/* xs */
+/* @media (min-width: 475px) {} */
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* lg */
+/* @media (min-width: 1024px) {} */
+
+/* xl */
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */
+
+.sec-travel
+{
+    margin-bottom: 200px;
+}
+
+.sec-travel .content
+{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.sec-travel .content .title
+{
+    font-size: var(--size-4xl);
+    font-weight: 600;
+    text-align: center;
+    color: var(--clr-rose);
+}
+
+.sec-travel .content .subtitle
+{
+    font-size: var(--size-basic);
+    font-weight: 400;
+    color: var(--clr-light);
+    width: 80%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sec-travel .content .map
+{
+    display: block;
+    position: relative;
+    width: 90%;
+    margin-top: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+    animation-name: map;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    transition: 0.3s all ease-in-out;
+}
+
+@media (min-width: 640px) {
+
+    .sec-travel .content .map
+    {
+        display: block;
+        position: relative;
+        width: 80%;
+        margin-top: 20px;
+        border-radius: 15px;
+        overflow: hidden;
+        animation-name: map;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        transition: 0.3s all ease-in-out;
+    }
+
+}
+
+@keyframes map {
+
+    0%, 100%
+    {
+        transform: scale(1);
+    }
+
+    50%
+    {
+        transform: scale(1.1);
+    }
+    
+}
+
+.sec-travel .content .items
+{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.sec-travel .content .items .title
+{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    height: max-content;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: var(--clr-rose);
+    transform: rotate(1.5deg);
+}
+
+.sec-travel .content .items .title p
+{
+    font-size: var(--size-xl);
+    font-weight: 500;
+    color: var(--clr-light);
+    transform: rotate(-1.5deg);
+}
+
+.sec-travel .content .items .list
+{
+    display: flex;
+    position: relative;
+    height: auto;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.sec-travel .content .items .list .item
+{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.sec-travel .content .items .list .item img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.sec-travel .content .items .list .item p
+{
+    height: 40px;
+    font-size: var(--size-xl);
+    margin-top: 20px;
+}
+
+@media (min-width: 1280px) {
+
+    .sec-travel .content .items .list
+    {
+        display: flex;
+        position: relative;
+        height: auto;
+        margin-top: 20px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 40px;
+    }
+
+    .sec-travel .content .items .list .item
+    {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+        height: 300px;
+    }
+
+    .sec-travel .content .items .list .item img
+    {
+        width: 200px;
+        height: 200px;
+        border-radius: 10px;
+    }
+
+    .sec-travel .content .items .list .item p
+    {
+        height: 40px;
+        font-size: var(--size-xl);
+        margin-top: 20px;
+    }
+
+}
