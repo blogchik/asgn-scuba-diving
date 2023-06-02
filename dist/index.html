@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Scuba Diving</title>
+  
+  <link rel="icon" type="image/svg+xml" href="/logo-rose.svg" />
+
+  <link href="https://api.fontshare.com/v2/css?f[]=general-sans@701,200,500,301,201,300,601,600,401,501,400,700&display=swap" rel="stylesheet">
+
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
+
+  <script type="module" crossorigin src="/assets/main-ca82e3a8.js"></script>
+  <link rel="stylesheet" href="/assets/index-4abd090e.css">
+</head>
+<body>
+  
+  <header class="header container">
+
+    <a href="./"><img src="./logo-rose.svg" alt="logo" class="header__logo"></a>
+
+    <nav>
+      
+      <ul class="header__menu">
+        
+        <li>
+          
+          <a class="header__link" href="#home">Home</a>
+        
+        </li>
+        <li>
+
+          <a class="header__link" href="#about">About Us</a>
+
+        </li>
+        <li>
+          
+          <a class="header__link" href="#shop">Shop</a>
+
+        </li>
+        <li>
+          
+          <a class="header__link" href="#travel">Travel</a>
+
+        </li>
+        <li>
+          
+          <a class="header__link" href="#gallery">Gallery</a>
+
+        </li>
+        <li>
+          
+          <a class="header__link" href="#divingclub">Diving Club</a>
+
+        </li>
+
+        <li class="header__line"></li>
+
+        <li>
+
+          <button aria-label="theme-toggle btn" id="theme-toggle" class="header__sun">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+              
+              <path
+                d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z"
+              />
+
+            </svg>
+
+          </button>
+
+        </li>
+        <li>
+
+          <a class="header__join btn" href="https://t.me/JabborovAbduroziq" target="_blank">JOIN US</a>
+
+        </li>
+
+      </ul>
+
+      <button aria-label="mobile nav button" class="header__bars">
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+
+          <path
+            fill-rule="evenodd"
+            d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
+            clip-rule="evenodd"
+          />
+
+        </svg>
+
+      </button>
+
+    </nav>
+
+  </header>
+
+  <!-- Mobile Navigation -->
+
+  <div class="mobile-nav">
+
+    <nav>
+
+      <ul class="mobile-nav__menu">
+
+        <li>
+          
+          <a class="mobile-nav__link" href="#home">Home</a>
+        
+        </li>
+        <li>
+
+          <a class="mobile-nav__link" href="#about">About Us</a>
+
+        </li>
+        <li>
+          
+          <a class="mobile-nav__link" href="#shop">Shop</a>
+
+        </li>
+        <li>
+          
+          <a class="mobile-nav__link" href="#travel">Travel</a>
+
+        </li>
+        <li>
+          
+          <a class="mobile-nav__link" href="#gallery">Gallery</a>
+
+        </li>
+        <li>
+          
+          <a class="mobile-nav__link" href="#divingclub">Diving Club</a>
+
+        </li>
+
+        <li class="mobile-nav__link-line"></li>
+
+        <li>
+
+          <button aria-label="theme-toggle btn" id="theme-toggle" class="mobile-nav__sun">
+
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z"
+              />
+            </svg>
+
+          </button>
+
+        </li>
+        <li>
+
+          <a class="mobile-nav__btn btn" href="https://t.me/JabborovAbduroziq" target="_blank">JOIN US</a>
+
+        </li>
+
+      </ul>
+
+    </nav>
+
+  </div>
+
+  <!-- End of Mobile Navigation -->
+
+  <main>
+
+    <section class="container sec-hero" id="home">
+        
+      <div class="content">
+
+        <p class="subtitle">
+          Announcing our next round of funding. <a href="#">Read more <i class="fi fi-rr-arrow-right"></i></a>
+        </p>
+
+        <h1 class="title">
+          Explore the Depths with Scuba Diving Adventures
+        </h1>
+
+        <p class="description">
+          Explore the mesmerizing world of scuba diving. Dive into vibrant depths, witness majestic sea creatures, and uncover the secrets of the deep. Join us on an extraordinary journey of self-discovery beneath the surface. Take the plunge and be captivated by the magic of scuba diving.
+        </p>
+
+        <div class="action">
+
+          <a href="#" class="btn">Get started</a>
+
+          <a href="#">Learn more <i class="fi fi-rr-arrow-right"></i></a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="container section sec-about" id="about">
+      
+      <div class="content">
+
+        <div class="text">
+
+          <p class="title">
+            Work with us
+          </p>
+          <p class="subtitle">
+            Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.
+          </p>
+
+        </div>
+
+        <div class="links">
+
+          <a href="#">Open roles <i class="fi fi-rr-arrow-right"></i></a>
+          <a href="#">Intership program <i class="fi fi-rr-arrow-right"></i></a>
+          <a href="#">Our values <i class="fi fi-rr-arrow-right"></i></a>
+          <a href="#">Meet our leadership <i class="fi fi-rr-arrow-right"></i></a>
+
+        </div>
+
+        <div class="stats">
+
+          <div class="stat">
+
+            <p class="value">
+              12
+            </p>
+            <p class="key">
+              Offices worldwide
+            </p>
+
+          </div>
+
+          <div class="stat">
+
+            <p class="value">
+              300+
+            </p>
+            <p class="key">
+              Full-time colleagues
+            </p>
+
+          </div>
+
+          <div class="stat">
+
+            <p class="value">
+              40
+            </p>
+            <p class="key">
+              Hours per week
+            </p>
+
+          </div>
+
+          <div class="stat">
+
+            <p class="value">
+              Unlimited
+            </p>
+            <p class="key">
+              Paid time off
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="container section sec-shop" id="shop">
+
+      <div class="content">
+
+        <p class="title">
+          Aquatic Treasures: Your Destination for Water Sports Gear
+        </p>
+
+        <p class="subtitle">
+          Dive into a World of Accessories for Water Explorers
+        </p>
+
+        <p class="text">
+          Discover Aquatic Treasures, your one-stop shop for water sports gear. Find everything you need for scuba diving, snorkeling, and more. Shop our curated selection of high-quality products from top brands. Explore the depths with confidence and style. Dive into Aquatic Treasures and make a splash in your water adventures.
+        </p>
+
+        <a href="./shop.html" class="btn">Go to SHOP <i class="fi fi-rr-shop"></i></a>
+
+      </div>
+
+    </section>
+
+    <section class="container section sec-travel" id="travel">
+
+      <div class="content">
+
+        <p class="title">
+          Scuba Diving Travel
+        </p>
+
+        <p class="subtitle">
+          Your upcoming diving vacation is almost here. The top travel locations, liveaboards, diving resorts, and holiday offers are listed here.
+        </p>
+
+        <img class="map" src="https://i.pinimg.com/originals/5a/d6/cd/5ad6cd8dfb882132269b88651b792ed8.jpg" alt="world map">
+
+        <div class="items">
+
+          <div class="title">
+
+            <p>
+              DIVE AROUND WORLD
+            </p>
+
+          </div>
+
+          <div class="list">
+
+            <a class="item" href="#">
+
+              <img src="https://www.scubadiving.com/sites/scubadiving.com/files/styles/250_4x3/public/custom-touts/2015/05/california_shutterstock_159558878.jpg?itok=x_lxjfIo" alt="">
+              <p>
+                United States and Canada
+              </p>
+
+            </a>
+
+            <a class="item" href="#">
+
+              <img src="https://www.scubadiving.com/sites/scubadiving.com/files/styles/250_4x3/public/custom-touts/2015/05/hawaii-shutterstock_149660474.jpg?itok=YvoKyNYt" alt="">
+              <p>
+                Hawaiian Islands
+              </p>
+
+            </a>
+
+            <a class="item" href="#">
+
+              <img src="https://www.scubadiving.com/sites/scubadiving.com/files/styles/250_4x3/public/custom-touts/2015/05/mexico-loscabos-shutterstock_162710642.jpg?itok=W5BlC_Cg" alt="">
+              <p>
+                Mexico
+              </p>
+
+            </a>
+
+            <a class="item" href="#">
+
+              <img src="https://www.scubadiving.com/sites/scubadiving.com/files/styles/250_4x3/public/custom-touts/2015/05/belize-blue-hole-shutterstock_123453676.jpg?itok=dWQfzx1i" alt="">
+              <p>
+                Central America
+              </p>
+
+            </a>
+
+          </div>
+
+          <div class="list">
+
+            <a class="item" href="#">
+
+              <img src="https://www.scubadiving.com/sites/scubadiving.com/files/styles/250_4x3/public/import/2014/files/_images/201406/galapagos-sea-lion-web-shutterstock_161539175.jpg?itok=qTN_bb7n" alt="">
+              <p>
+                South America
+              </p>
+
+            </a>
+
+            <a class="item" href="#">
+
+              <img src="https://www.scubadiving.com/sites/scubadiving.com/files/styles/250_4x3/public/import/2014/files/_images/201406/goosheide_caribbeanreefshark-7.jpg?itok=Pw0Zi_y1" alt="">
+              <p>
+                Caribbean and Atlantic
+              </p>
+
+            </a>
+
+            <a class="item" href="#">
+
+              <img src="https://www.scubadiving.com/sites/scubadiving.com/files/styles/250_4x3/public/custom-touts/2015/05/tenerife-shutterstock_123032926.jpg?itok=Rhagn_n2" alt="">
+              <p>
+                Europe and Mediterranean
+              </p>
+
+            </a>
+
+            <a class="item" href="#">
+
+              <img src="https://www.scubadiving.com/sites/scubadiving.com/files/styles/250_4x3/public/import/2014/files/_images/201410/phiphithailand.jpg?itok=2qjT8U7z" alt="">
+              <p>
+                Asia and Indian Ocean
+              </p>
+
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="container section sec-gallery" id="gallery">
+
+      <div class="content">
+
+        <p class="title">
+          Scuba Gallery
+        </p>
+
+        <div class="items">
+
+          <div class="item">
+
+            <img src="https://www.scubadiving.com/sites/scubadiving.com/files/styles/2000_1x_/public/images/2022/08/first-place-behavior-2022-scuba-diving-magazine-photo-contest-credit-salvatore-ianniello.png?itok=sBYSkcJa&fc=50,50" alt="">
+
+          </div>
+
+          <div class="item">
+
+            <img src="https://www.scubadiving.com/sites/scubadiving.com/files/styles/2000_1x_/public/images/2022/08/second-place-behavior-2022-scuba-diving-magazine-photo-contest-credit-luc-rooman.png?itok=nK1Lpnk3&fc=50,50" alt="">
+
+          </div>
+
+          <div class="item">
+
+            <img src="https://www.scubadiving.com/sites/scubadiving.com/files/styles/2000_1x_/public/images/2022/08/third-place-behavior-2022-scuba-diving-magazine-photo-contest-credit-yves-guenot.jpg?itok=TiSz2NLb&fc=50,50" alt="">
+
+          </div>
+
+          <div class="item">
+
+            <img src="https://www.scubadiving.com/sites/scubadiving.com/files/styles/2000_1x_/public/images/2022/08/first-place-compact-camera-2022-scuba-diving-magazine-photo-contest-credit-miguel-ramirez.png?itok=17RyAH-A&fc=50,50" alt="">
+
+          </div>
+
+          <div class="item">
+
+            <img src="https://www.scubadiving.com/sites/scubadiving.com/files/styles/2000_1x_/public/images/2022/08/second-place-compact-camera-2022-scuba-diving-magazine-photo-contest-credit-kathrin-landgraf-kluge.jpg?itok=ELtm1os0&fc=50,50" alt="">
+
+          </div>
+
+          <div class="item">
+
+            <img src="https://www.scubadiving.com/sites/scubadiving.com/files/styles/2000_1x_/public/images/2022/08/third-place-compact-camera-2022-scuba-diving-magazine-photo-contest-credit-brenda-hill.jpg?itok=VYV2PVHJ&fc=50,50" alt="">
+
+          </div>
+
+          <div class="item">
+
+            <img src="https://www.scubadiving.com/sites/scubadiving.com/files/styles/2000_1x_/public/images/2022/08/first-place-macro-2022-scuba-diving-magazine-photo-contest-credit-yury-ivanov.png?itok=G933QtsJ&fc=50,50" alt="">
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="container section sec-club" id="divingclub">
+
+      <div class="content">
+
+        <p class="title">
+          Join us to Diving Club
+        </p>
+
+        <form action="#" method="post">
+
+          <div class="data">
+
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Your name" required>
+
+          </div>
+
+          <div class="data">
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="example@internet.com" required>
+
+          </div>
+
+          <div class="data">
+
+            <label for="comment">Comment:</label>
+            <textarea name="comment" id="comment" placeholder="Your comment here"></textarea>
+
+          </div>
+
+          <div class="data">
+
+            <button type="submit" class="btn">SEND</button>
+
+          </div>
+
+        </form>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer class="container section">
+
+    <div class="footer">
+
+      <div class="side">
+
+        <a href="./" class="logo">
+          <img src="./logo-rose.svg" alt="logo">
+        </a>
+
+      </div>
+
+      <div class="side socials">
+
+        <a href="#">
+          <i class="fi fi-brands-telegram"></i>
+        </a>
+
+        <a href="#">
+          <i class="fi fi-brands-instagram"></i>
+        </a>
+
+        <a href="#">
+          <i class="fi fi-brands-youtube"></i>
+        </a>
+
+        <a href="#">
+          <i class="fi fi-brands-twitter"></i>
+        </a>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+  
+
+</body>
+</html>
